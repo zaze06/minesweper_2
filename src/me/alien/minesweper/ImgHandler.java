@@ -16,18 +16,20 @@ public class ImgHandler {
     public final String BOMB_SEVEN =     "bomb_7";
     public final String BOMB_EIGHTH =    "bomb_8";
     public final String BOMB_EMPTY =     "bomb_0";
+    public final String ZERO =           "zero";
     public final String ONE =            "one";
-    public final String TOW =            "one";
-    public final String THERE =          "one";
-    public final String FORE =           "one";
-    public final String FIVE =           "one";
-    public final String SIX =            "one";
-    public final String SEVEN =          "one";
-    public final String EIGHTH =         "one";
-    public final String NINE =           "one";
+    public final String TOW =            "tow";
+    public final String THERE =          "there";
+    public final String FORE =           "fore";
+    public final String FIVE =           "five";
+    public final String SIX =            "six";
+    public final String SEVEN =          "seven";
+    public final String EIGHTH =         "eight";
+    public final String NINE =           "nine";
     public final String FLAG =           "flag";
     public final String BOMB =           "bomb";
     public final String WRONG_FLAG =     "flag_wrong";
+    public final String UN_REVILED =     "un_reviled";
 
     public BufferedImage getImg(String img){
         BufferedImage image = null;

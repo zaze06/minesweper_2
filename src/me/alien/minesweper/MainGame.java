@@ -18,10 +18,13 @@ public class MainGame extends Game {
         g2d.setColor(new ColorUIResource(107, 107, 107));
 
 
-        for(int x = 15; x < 200; x += 24){
-            for(int y = 79; y < 300; y += 24){
-                g2d.drawImage(img.getImg())
+        for(int x = 15; x < 229; x += 24){
+            for(int y = 79; y < 256; y += 24){
+                g2d.drawImage(img.getImg(img.UN_REVILED), null , x, y);
             }
         }
     }
+
+    clic
+
 }
